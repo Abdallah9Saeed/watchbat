@@ -1,0 +1,38 @@
+     
+	.main{
+		
+	padding:22px 20px;
+	
+	}
+	.second_screen{ display:none;}
+	.login_google{display:none;}
+	.after_login{ display:none;}
+	 body {
+          background-color: black;
+          background-image: url('bat.jpg');
+          background-repeat: no-repeat;
+          background-size: contain;
+		  margin:0 auto;
+          }
+          .form-group .btn, .form-group label, .form-group input {
+          margin-right: 5px;
+          }
+		  
+		  	  h1,h2,h3{font-size:25px; 
+				      color:#000;
+					  font-weight:bold;
+					 -webkit-text-stroke:0.25px #FFFF00;
+					
+				  }
+		  @media only screen and  (max-width:500px){
+		
+	
+		  	  h1,h2,h3{
+					color:#000;
+					font-size:20px; 
+					font-weight:bold;
+					-webkit-text-stroke:0.3px #FFFF00;
+					
+				  }
+		  
+		  }
